@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CST2335FinalProject</string>
+    <string name="covidCountry">Pays</string>
+    <string name="covidCountryEditText">Entrez un nom de pays ...</string>
+    <string name="covidDate">Date</string>
+    <string name="covidDateEditText">Veuillez sélectionner une date ...</string>
+    <string name="covidAuthor">Auteur: Kris Charbonneau</string>
+    <string name="covidSearchBtn">Chercher</string>
+    <string name="covidVersion">Version 1.0</string>
+    <string name="covidAppTitle">Données de cas COVID-19</string>
+    <string name="sortSwitch">Trier par nombre de cas</string>
+    <string name="covidSearchResults">Résultats de recherche</string>
+    <string name="covidSort">La liste a été triée</string>
+    <string name="covidUnsort">La liste n\'est pas triée</string>
+    <string name="covidSavedResults">Résultats de recherche enregistrés</string>
+    <string name="covidHide">Cacher</string>
+    <string name="covidMessageHere">Détails</string>
+    <string name="covidLocationDetails">Détails de l\'emplacement</string>
+    <string name="open">Ouvert</string>
+    <string name="close">Proche</string>
+    <string name="covidHelpMain">Entrez un pays et choisissez une date pour voir les statistiques mises à jour pour ce jour particulier.</string>
+    <string name="covidHelpTitle">Aidez-moi</string>
+    <string name="covidHelpResults">Cette page affiche les statistiques mises à jour du pays sélectionné, le jour sélectionné.\n\n Pour trier les résultats, cochez la case.\n \n Pour afficher les détails de l\'emplacement, cliquez sur un élément.\n \n Pour supprimer un élément de la base de données, cliquez et maintenez un élément et suivez la boîte de dialogue.</string>
+    <string name="covidHelpMenuItem">AIDEZ-MOI</string>
+    <string name="covidGoBackToHome">RETOUR A LA MAISON</string>
+    <string name="covidSaveSearch">ENREGISTRER LES RÉSULTATS DE LA RECHERCHE</string>
+    <string name="covidLoadResults">CHARGER LES RÉSULTATS DE LA RECHERCHE</string>
+</resources>
