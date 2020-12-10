@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/recipetools_ingredients"
+        android:title="@string/recipeingredients"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/recipetools_audioapp"
+        android:title="@string/recipeaudioname"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/recipetools_covidapp"
+        android:title="@string/recipecovidname"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/recipetools_recipeapp"
+        android:title="@string/reciperecipename"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/recipetools_ticketapp"
+        android:title="@string/recipeticketname"
+        app:showAsAction="never" ></item>
+</menu>

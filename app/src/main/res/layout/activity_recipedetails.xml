@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".RecipeInfo">
+
+    <include
+        layout="@layout/recipe_toolbarlayout"
+        android:id="@+id/recipeapptoolbar" />
+
+    <androidx.drawerlayout.widget.DrawerLayout android:id="@+id/recipedrawerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/recipeapptoolbar"
+        tools:context=".RecipeInfo">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/recipeimage"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_alignParentBottom="false"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/recipefoodtemplate" />
+
+            <TextView
+                android:id="@+id/recipetitleid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/recipeviewprogressbar"
+                android:text="@string/recipesearchidextra" />
+
+            <TextView
+                android:id="@+id/recipeviewtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/recipetitleid"
+                android:text="@string/recipetitle" />
+
+            <TextView
+                android:id="@+id/recipeviewingredients"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/recipeviewtitle"
+                android:text="@string/recipeingredients" />
+
+            <ProgressBar
+                android:id="@+id/recipeviewprogressbar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/recipeimage"
+                android:layout_alignParentBottom="false"
+                android:visibility="visible" />
+
+            <Switch
+                android:id="@+id/recipesavedicon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/recipeviewingredients"
+                android:text="@string/recipesaved" />
+
+            <Button
+                android:id="@+id/recipeclosebutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="@string/recipeclose" />
+
+        </RelativeLayout>
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/recipenavigation"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start|left"
+            app:menu="@menu/menu_recipe_navs" />
+    </androidx.drawerlayout.widget.DrawerLayout>
+</RelativeLayout>

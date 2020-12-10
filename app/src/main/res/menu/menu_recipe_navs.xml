@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/recipenav_help"
+        android:title="@string/recipehelp" />
+
+    <item
+        android:id="@+id/recipenav_audioapp"
+        android:title="@string/recipeaudioname"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/recipenav_covidapp"
+        android:title="@string/recipecovidname" />
+    <item
+        android:id="@+id/recipenav_recipeapp"
+        android:title="@string/reciperecipename" />
+    <item
+        android:id="@+id/recipenav_ticketapp"
+        android:title="@string/recipeticketname" />
+    <item
+        android:id="@+id/recipenav_credit"
+        android:title="@string/recipedeveloper" />
+    <item
+        android:id="@+id/recipenav_exit"
+        android:title="@string/recipeexit" />
+</menu>

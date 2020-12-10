@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="recipecovidname">Covid App</string>
+    <string name="recipeaudioname">Audio App</string>
+    <string name="recipeticketname">Ticket App</string>
+    <string name="reciperecipename">Recipe App</string>
+    <string name="recipesearchdots">Chercher…</string>
+    <string name="recipeitem">Regarder l\'objet</string>
+    <string name="recipehelp">Aidez-moi</string>
+    <string name="recipeno">Non</string>
+    <string name="recipeinfo">Information</string>
+    <string name="recipeyes">Oui</string>
+    <string name="recipesaveremoved">Est retirés</string>
+    <string name="recipeingredientsdots">Ingrédient…</string>
+    <string name="recipeopen">Ouvert</string>
+    <string name="recipesearchid">ID</string>
+    <string name="recipeclose">proche</string>
+    <string name="reciperemoved">Supprimé</string>
+    <string name="recipeadd">Ajouter</string>
+    <string name="recipeingredients">Ingrédients</string>
+    <string name="recipesaveadded">Est ajouté</string>
+    <string name="recipedatabasetitle">Informations sur la base de données de recettes</string>
+    <string name="recipetitle">Titre</string>
+    <string name="recipesearch">Chercher</string>
+    <string name="recipeok">D\'accord</string>
+    <string name="recipesaved">Enregistrée</string>
+    <string name="recipedeveloper">Crédits</string>
+    <string name="recipedeletetitle">Supprimer l\'ingrédient</string>
+    <string name="recipeexit">Sortie</string>
+    <string name="recipeingredientadded">Ingrédient ajouté</string>
+    <string name="recipeimagepreview">La vignette</string>
+    <string name="recipesearchidextra">ID: </string>
+    <string name="recipesavetitle">Recettes enregistrées</string>
+    <string name="recipedelete">Supprimer</string>
+    <string name="recipeingredient">Ingrédient</string>
+    <string name="recipeundo">annuler</string>
+    <string name="recipedeleteconfirm">Etes-vous sûr que vous voulez supprimer</string>
+    <string name="reciperemove">Retirer</string>
+</resources>

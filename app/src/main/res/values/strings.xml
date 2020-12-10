@@ -1,3 +1,40 @@
 <resources>
     <string name="app_name">CST2335FinalProject</string>
+
+    <string name="recipecovidname">Covid App</string>
+    <string name="recipeaudioname">Audio App</string>
+    <string name="recipeticketname">Ticket App</string>
+    <string name="reciperecipename">Recipe App</string>
+    <string name="recipetitle">Title</string>
+    <string name="recipeexit">Exit</string>
+    <string name="recipedeletetitle">Delete Ingredient</string>
+    <string name="recipesavetitle">Saved Recipes</string>
+    <string name="recipesearchdots">Search...</string>
+    <string name="recipeyes">Yes</string>
+    <string name="recipeimagepreview">Image Preview</string>
+    <string name="recipesaveadded">Is saved</string>
+    <string name="recipesearch">Search</string>
+    <string name="recipeundo">Undo</string>
+    <string name="recipeingredientadded">Added Ingredient</string>
+    <string name="reciperemoved">Removed</string>
+    <string name="recipesearchid">ID</string>
+    <string name="recipeinfo">Information</string>
+    <string name="recipeopen">Open</string>
+    <string name="recipedatabasetitle">Database:</string>
+    <string name="recipedelete">Delete</string>
+    <string name="reciperemove">Remove</string>
+    <string name="recipeno">No</string>
+    <string name="recipeingredient">Ingredient</string>
+    <string name="recipedeleteconfirm">Do you want to delete</string>
+    <string name="recipehelp">Help</string>
+    <string name="recipeclose">Close</string>
+    <string name="recipeadd">Add</string>
+    <string name="recipeingredientsdots">Ingredient...</string>
+    <string name="recipeok">OK</string>
+    <string name="recipeingredients">Ingredients</string>
+    <string name="recipesaved">Saved</string>
+    <string name="recipesearchidextra">ID: </string>
+    <string name="recipedeveloper">Developer</string>
+    <string name="recipeitem">View Item</string>
+    <string name="recipesaveremoved">Is removed</string>
 </resources>
