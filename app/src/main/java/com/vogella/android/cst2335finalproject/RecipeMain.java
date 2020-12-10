@@ -258,8 +258,8 @@ public class RecipeMain extends AppCompatActivity {
                 break;
             case R.id.recipenav_covidapp:
             case R.id.recipetools_covidapp:
-                /*Intent i2 = new Intent(context, CovidActivity.class);
-                context.startActivity(i2);*/
+                Intent i2 = new Intent(context, CovidMain.class);
+                context.startActivity(i2);
                 break;
             case R.id.recipenav_help:
                 alertbuilder.setTitle(R.string.recipehelp).setMessage(help).setNeutralButton(R.string.recipeclose, (dialogInterface, i) -> dialogInterface.dismiss()).show();
