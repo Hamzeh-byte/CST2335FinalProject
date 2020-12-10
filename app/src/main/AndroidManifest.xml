@@ -10,7 +10,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CST2335FinalProject">
+        android:theme="@style/Theme.CST2335FinalProject"
+        android:parentActivityName = "CovidSearchResult">
+        <activity android:name=".CovidDBSave"></activity>
+        <activity android:name=".CovidDBLoad" />
+        <activity android:name=".CovidEmptyActivity" />
+        <activity android:name=".CovidSearchResult" />
+        <activity android:name=".CovidMain" />
         <activity android:name=".RecipeInfo" />
         <activity android:name=".RecipeIngredientsTab" />
         <activity android:name=".RecipeMain" />

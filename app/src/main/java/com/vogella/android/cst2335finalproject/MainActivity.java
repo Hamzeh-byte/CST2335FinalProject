@@ -2,6 +2,7 @@ package com.vogella.android.cst2335finalproject;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageButton;
@@ -16,8 +17,8 @@ public class MainActivity extends AppCompatActivity {
 
         ImageButton btn_covid19 = (ImageButton)findViewById(R.id.btn_covid19);
         btn_covid19.setOnClickListener(bt -> {
-//            Intent nextPage = new Intent(MainActivity.this, .class);
-//            startActivity(nextPage);
+            Intent nextPage = new Intent(MainActivity.this, CovidMain.class);
+            startActivity(nextPage);
         });
 
         ImageButton btn_recipe = (ImageButton)findViewById(R.id.btn_recipe);
