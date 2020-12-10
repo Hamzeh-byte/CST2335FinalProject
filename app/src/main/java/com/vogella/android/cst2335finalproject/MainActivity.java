@@ -7,6 +7,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageButton;
 
+import com.vogella.android.cst2335finalproject.ticket_master.SearchEventsActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -30,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
 
         ImageButton btn_ticketevent = (ImageButton)findViewById(R.id.btn_ticketevent);
         btn_ticketevent.setOnClickListener(bt -> {
-//            Intent nextPage = new Intent(MainActivity.this, .class);
-//            startActivity(nextPage);
+            Intent nextPage = new Intent(MainActivity.this, SearchEventsActivity.class);
+            startActivity(nextPage);
         });
 
         ImageButton btn_audiodb = (ImageButton)findViewById(R.id.btn_audiodb);

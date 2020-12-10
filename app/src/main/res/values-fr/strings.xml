@@ -36,4 +36,18 @@
     <string name="recipeundo">annuler</string>
     <string name="recipedeleteconfirm">Etes-vous sûr que vous voulez supprimer</string>
     <string name="reciperemove">Retirer</string>
+    <string name="help_dialog">Boîte de dialogue d\'aide</string>
+    <string name="okay">d\'accord</string>
+    <string name="info_help">Détail de l\'événement par Jose, version 1</string>
+    <string name="msg_stored_event">Vous avez déjà enregistré cet événement!</string>
+    <string name="msg_deleted">L\'événement a été supprimé des favoris!</string>
+    <string name="help_info_activity">ici vous pouvez voir les détails de l\'événement</string>
+    <string name="dialog_title">Boîte de dialogue d\'aide</string>
+    <string name="toolbar_saved">Événements préférés de Jose, version 1</string>
+    <string name="msg_no_saved_item">Il n\'y a aucun événement enregistré ici!</string>
+    <string name="help_saved_activity">Ici vous pouvez voir la liste des événements que vous avez sauvegardés!</string>
+    <string name="toolbar_search">Rechercher des événements par Jose, version 1</string>
+    <string name="search_help_activity">Entrez le nom de la ville et obtenez des événements de TicketMaster</string>
+    <string name="validate_input_city">Veuillez saisir le nom de la ville</string>
+    <string name="error_no_event_found">Il n\'y a aucun événement disponible pour une ville donnée! désolé réessayer plus tard!</string>
 </resources>

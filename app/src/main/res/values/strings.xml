@@ -64,4 +64,19 @@
     <string name="covidSaveSearch">SAVE SEARCH RESULTS</string>
     <string name="covidLoadResults">LOAD SEARCH RESULTS</string>
     <string name="covidHelpMenuItem">HELP</string>
+    <string name="help_dialog">Help Dialog</string>
+    <string name="okay">Okay</string>
+    <string name="api_key" translatable="false">BrF9b5BrpcAfWvYgEvpaAEgrYb3ER9uM</string>
+    <string name="info_help">Event Detail by Jose, version 1</string>
+    <string name="msg_stored_event">You already have stored this event!</string>
+    <string name="msg_deleted">Event has been Deleted from favorites!</string>
+    <string name="help_info_activity">Here you can see the details of the event, press save to store event or press delete to delete the event</string>
+    <string name="dialog_title">Help Dialog</string>
+    <string name="toolbar_saved">Favorite Events By Jose, Version 1</string>
+    <string name="msg_no_saved_item">There\'s no events saved here!</string>
+    <string name="help_saved_activity">Here you can see the list of events which was saved by you!</string>
+    <string name="toolbar_search">Search Events By Jose, Version1</string>
+    <string name="search_help_activity">Enter City Name and get Events from TicketMaster</string>
+    <string name="validate_input_city">Please Enter City Name</string>
+    <string name="error_no_event_found">There\'s no events available for given city! sorry try again later!</string>
 </resources>
